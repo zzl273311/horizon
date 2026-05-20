@@ -9,282 +9,261 @@ lang: en
 
 ---
 
-1. [EU launches Wero, sovereign payment for 130M Europeans by 2026](#item-1) ⭐️ 9.0/10
-2. [Qwen3.7-Max: Alibaba's New Frontier Open-Source Model](#item-2) ⭐️ 8.0/10
-3. [Mozilla Deprecates Asm.js, WebAssembly Takes Over](#item-3) ⭐️ 8.0/10
-4. [Meta blocks human rights accounts in Saudi Arabia, UAE](#item-4) ⭐️ 8.0/10
-5. [Blog post explores pervasive undefined behavior in C](#item-5) ⭐️ 8.0/10
-6. [Google announces Gemini 3.5 Flash with significant price hikes](#item-6) ⭐️ 8.0/10
-7. [uv 0.11.15 Released with Critical Security Patches](#item-7) ⭐️ 7.0/10
-8. [Archived FiveThirtyEight Index Launched After Disney Removal](#item-8) ⭐️ 7.0/10
-9. [Simon Willison's Lightning Talk: Six Months of LLM Progress](#item-9) ⭐️ 7.0/10
-10. [Japan's 1950s forestry project blamed for mass allergies](#item-10) ⭐️ 6.0/10
-11. [Google I/O 2026: Gemini Spark and Antigravity Steal the Show](#item-11) ⭐️ 6.0/10
-12. [llm-gemini 0.32 Adds Gemini 3.5 Flash Support](#item-12) ⭐️ 6.0/10
+1. [Google Announces Gemini 3.5 Flash with Higher Pricing](#item-1) ⭐️ 9.0/10
+2. [Alibaba Releases Qwen3.7-Max, a New Proprietary Frontier AI Model](#item-2) ⭐️ 8.0/10
+3. [Saying Goodbye to Asm.js](#item-3) ⭐️ 8.0/10
+4. [Meta Blocks Human Rights Accounts in Saudi Arabia, UAE](#item-4) ⭐️ 8.0/10
+5. [Blog Post Lists Surprising C Undefined Behaviors](#item-5) ⭐️ 8.0/10
+6. [EU launches Wero, sovereign payment alternative to Visa/Mastercard](#item-6) ⭐️ 8.0/10
+7. [uv 0.11.15 released with security fixes and enhancements](#item-7) ⭐️ 7.0/10
+8. [Google fights manipulation of AI search results](#item-8) ⭐️ 7.0/10
+9. [Curated Index of Archived FiveThirtyEight Articles](#item-9) ⭐️ 7.0/10
+10. [Japan's mass allergies traced to 1950s reforestation project](#item-10) ⭐️ 6.0/10
+11. [Simon Willison Analyzes Gemini Spark and Antigravity at Google I/O](#item-11) ⭐️ 6.0/10
+12. [Last 6 months of LLMs in a 5-minute talk](#item-12) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [EU launches Wero, sovereign payment for 130M Europeans by 2026](https://www.lesnumeriques.com/banque-en-ligne/adieu-visa-et-mastercard-130-millions-d-europeens-basculent-vers-un-paiement-100-souverain-des-2026-n250918.html) ⭐️ 9.0/10
+## [Google Announces Gemini 3.5 Flash with Higher Pricing](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) ⭐️ 9.0/10
 
-The European Union is launching Wero, a unified sovereign payment system that will replace Visa and Mastercard for 130 million Europeans starting in 2026, consolidating fragmented online payment methods across member states. This shift reduces Europe's dependence on US payment networks, strengthens digital sovereignty, and simplifies cross-border transactions, potentially lowering fees and increasing data privacy for consumers and merchants. Wero initially focuses on online payments and peer-to-peer transfers, not in-store transactions; it builds on existing national systems like iDeal (Netherlands) and Bizum (Spain). Direct debit cards, often Visa/Mastercard-backed, will remain in use for contactless payments.
+Google has announced Gemini 3.5 Flash, a new multimodal language model, with a 3x price increase compared to its predecessor Gemini 3.0 Flash preview. This marks a significant shift in pricing strategy for the Flash series, raising questions about cost efficiency for developers and the model's positioning against competitors. Community members have noted that Gemini 3.5 Flash costs $1.50 per million input tokens and $9.00 per million output tokens, while earlier Flash models were much cheaper. Additionally, the model demonstrates efficient token usage for complex tasks like generating animated SVGs.
 
-hackernews · healsdata · May 20, 13:02 · [Discussion](https://news.ycombinator.com/item?id=48207004)
+hackernews · spectraldrift · May 19, 17:43 · [Discussion](https://news.ycombinator.com/item?id=48196570)
 
-**Background**: Wero is a European payment initiative designed to create a sovereign alternative to US card networks Visa and Mastercard. It leverages the existing banking infrastructure to redirect users to their bank's security system for authorization, eliminating the need to enter card details on merchant sites. The system aims to reduce fragmentation in the EU's digital payment landscape.
+**Background**: Gemini Flash is a series of lightweight, fast models from Google DeepMind designed for high throughput and low latency. The Flash series initially offered a cost-effective alternative to the larger Pro models, but Gemini 3.5 Flash now approaches Pro-level pricing while maintaining Flash speeds.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Wero_(payment)">Wero (payment) - Wikipedia</a></li>
-<li><a href="https://wero-wallet.eu/pay-online">Wero - Pay Online</a></li>
-<li><a href="https://banking.vision/en/development-wero-2025-2026/">Wero 2025/2026 – The European payment engine is picking up ...</a></li>
+<li><a href="https://deepmind.google/models/gemini/flash/">Gemini 3 . 5 Flash — Google DeepMind</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash">Gemini 3 . 5 Flash | Gemini API | Google AI for Developers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is generally positive, with many praising the move toward sovereignty and improved security. However, some commenters note the headline is misleading as Wero initially covers only online payments, not in-store, and that direct debit cards still rely on Visa/Mastercard. A few humorous remarks about the name 'Wero' (sharing 'you-ro') were also shared.
+**Discussion**: Community reaction is mixed: some users express concern over the 3x price hike and question the value proposition, while others highlight the model's technical strengths, such as efficient token usage and parameter inference from TPU specs. There is also discussion about the early 2025 knowledge cutoff requiring web search.
 
-**Tags**: `#fintech`, `#European sovereignty`, `#payment systems`, `#digital payments`, `#regulatory impact`
+**Tags**: `#AI`, `#Google`, `#Gemini`, `#LLM`, `#pricing`
 
 ---
 
 <a id="item-2"></a>
-## [Qwen3.7-Max: Alibaba's New Frontier Open-Source Model](https://qwen.ai/blog?id=qwen3.7) ⭐️ 8.0/10
+## [Alibaba Releases Qwen3.7-Max, a New Proprietary Frontier AI Model](https://qwen.ai/blog?id=qwen3.7) ⭐️ 8.0/10
 
-Alibaba has released Qwen3.7-Max, an open-source large language model that claims state-of-the-art non-hallucination rates, surpassing models like Opus 4.7 and GPT-5.5 on the AA-omniscience benchmark. This release pushes the frontier of open-source AI, offering a competitive alternative to proprietary models. It could lower barriers for businesses and developers to deploy high-performance, low-hallucination models. The model achieves SOTA non-hallucination rates according to the AA-omniscience benchmark, but actual performance across other benchmarks may vary. Community members note that hosting via proxy services like OpenRouter may have throttling issues.
+Alibaba has announced Qwen3.7-Max, a new proprietary frontier AI model that achieves state-of-the-art performance in benchmarks like non-hallucination rate, surpassing competitors such as Opus 4.7, Gemini 3.1 Pro, and GPT5.5. This release underscores the rapid advancement of Chinese AI companies in the frontier model space, while sparking community debate about the openness of such models and the availability of affordable hosting options for developers worldwide. Qwen3.7-Max is the flagship text-only model with a higher capability ceiling, while Qwen3.7 Plus handles multimodal inputs. The model is proprietary, raising questions about whether an open-source version will follow, as with previous Qwen releases.
 
 hackernews · kevinsimper · May 20, 10:35 · [Discussion](https://news.ycombinator.com/item?id=48205626)
 
-**Background**: Qwen is a series of large language models developed by Alibaba, ranging from 0.5B to 72B parameters, including Mixture-of-Experts variants. Hallucination rates measure how often a model generates false or fabricated information; lower rates are critical for reliable AI applications.
+**Background**: Frontier AI models are the most advanced machine learning models, typically trained on vast datasets and requiring massive computational resources. Many leading models, such as GPT-4 and Claude, are proprietary and accessible only via cloud APIs. Alibaba's Qwen series has historically offered both proprietary and open-source versions, with the open-source variants being popular for local deployment.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://huggingface.co/Qwen/Qwen2-7B">Qwen / Qwen 2-7B · Hugging Face</a></li>
-<li><a href="https://openrouter.ai/qwen">Qwen API and Models | OpenRouter</a></li>
-<li><a href="https://github.com/vectara/hallucination-leaderboard/">Hallucination Leaderboard - GitHub</a></li>
+<li><a href="https://www.buildfastwithai.com/blogs/qwen3-7-max-preview-alibaba-2026">Qwen3.7 Max Preview: Arena Ranks, Features & What's Next</a></li>
+<li><a href="https://artificialanalysis.ai/models/qwen3-7-max">Qwen3.7 Max - Intelligence, Performance & Price Analysis</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Frontier_model">Frontier model</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments express excitement about the model's capabilities and its potential as a free alternative to Claude Code. Some users wish for US-based hosting options due to geopolitical concerns, while others discuss practical deployment issues such as throttling on proxy services.
+**Discussion**: Community members expressed excitement about the model's performance, with one user calling it state-of-the-art. Others raised concerns about hosting availability—particularly for users outside China—and whether an open-source release would follow. Some praised the value of open-source alternatives like Qwen3.6 for smaller tasks.
 
-**Tags**: `#AI`, `#open-source`, `#large language model`, `#Qwen`, `#machine learning`
+**Tags**: `#AI`, `#Qwen`, `#language models`, `#open source`, `#frontier models`
 
 ---
 
 <a id="item-3"></a>
-## [Mozilla Deprecates Asm.js, WebAssembly Takes Over](https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html) ⭐️ 8.0/10
+## [Saying Goodbye to Asm.js](https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html) ⭐️ 8.0/10
 
-Mozilla's SpiderMonkey team announced the deprecation of asm.js in Firefox, as WebAssembly has fully superseded it. The feature will be removed in a future release. Asm.js pioneered near-native performance in browsers and directly led to the development of WebAssembly. Its deprecation marks the end of a foundational technology and confirms WebAssembly as the universal standard for high-performance web applications. Asm.js is a strict subset of JavaScript used as a compilation target for C/C++ via Emscripten, first supported in Firefox 22. WebAssembly, a binary format with faster parsing and stronger security, became a W3C recommendation in 2019 and is now supported in all major browsers.
+Mozilla's SpiderMonkey team announced that asm.js support will be removed from the engine, officially sunsetting the technology. Asm.js was a pioneering technology that enabled near-native performance in browsers and paved the way for WebAssembly; its end marks a full transition to WebAssembly as the standard for high-performance web applications. Asm.js is a strict subset of JavaScript that allowed code from languages like C and C++ to run efficiently in the browser; SpiderMonkey will no longer apply special optimizations for asm.js code.
 
 hackernews · eqrion · May 20, 12:01 · [Discussion](https://news.ycombinator.com/item?id=48206340)
 
-**Background**: Asm.js was created by Mozilla in 2013 to allow C/C++ code to run in browsers at near-native speeds, using a subset of JavaScript that engines could optimize ahead-of-time. It proved the concept of high-performance web apps, leading to the creation of WebAssembly, a portable binary format that uses a common virtual machine. WebAssembly offers smaller file sizes, faster decoding, and a clear security model, making it the preferred choice for performance-critical web content.
+**Background**: Asm.js was introduced by Mozilla in 2013 as a way to run C/C++ code in the browser at near-native speed by restricting JavaScript to a subset that engines could optimize aggressively. It was a key precursor to WebAssembly, which became a standardized binary format for the web. SpiderMonkey is Mozilla's JavaScript and WebAssembly engine used in Firefox. The removal of asm.js support reflects the industry's complete shift to WebAssembly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Asm.js">Asm.js</a></li>
-<li><a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Asm.js">asm.js - Wikipedia</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Games/Tools/asm.js">asm.js - Game development - MDN Web Docs</a></li>
+<li><a href="https://spidermonkey.dev/">Home | SpiderMonkey JavaScript/WebAssembly Engine</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments reflect a bittersweet sentiment: some developers nostalgic about asm.js demos like Unreal Engine in the browser, while others highlight its practical legacy, such as Figma's initial reliance on asm.js. There are also concerns about WebAssembly's current limitations, like the need for shims to call Web APIs, and historical debates over NaCl vs. asm.js.
+**Discussion**: Community comments reflect a mix of nostalgia and appreciation for asm.js's role in enabling early demos like Unreal Engine in the browser and real-world products such as Figma, while some users note WebAssembly's limitations regarding direct Web API access without shims.
 
-**Tags**: `#asm.js`, `#WebAssembly`, `#web platform`, `#SpiderMonkey`, `#deprecation`
+**Tags**: `#asm.js`, `#WebAssembly`, `#SpiderMonkey`, `#browser technology`, `#JavaScript`
 
 ---
 
 <a id="item-4"></a>
-## [Meta blocks human rights accounts in Saudi Arabia, UAE](https://www.alqst.org/ar/posts/1190) ⭐️ 8.0/10
+## [Meta Blocks Human Rights Accounts in Saudi Arabia, UAE](https://www.alqst.org/ar/posts/1190) ⭐️ 8.0/10
 
-Meta has blocked or restricted access to human rights-related accounts and content in Saudi Arabia and the United Arab Emirates, limiting their reach to local audiences. This action highlights the ongoing tension between global social media platforms' commitment to free expression and their need to comply with local laws and government pressures in authoritarian countries. The report from ALQST indicates that Meta deliberately reduced visibility of human rights accounts, effectively censoring activists and organizations in these countries.
+Meta has restricted human rights accounts from reaching audiences in Saudi Arabia and the United Arab Emirates, effectively censoring content critical of these governments. This action undermines free speech and highlights the tension between corporate compliance with authoritarian regimes and the protection of human rights. It sets a concerning precedent for how tech giants manage geopolitical pressures in sensitive regions. The specific accounts affected were not disclosed, but the move blocks content from users in Saudi Arabia and the UAE, where local laws often require platforms to suppress dissent. Meta likely acted to avoid being banned or penalized in these countries.
 
 hackernews · giuliomagnifico · May 20, 12:43 · [Discussion](https://news.ycombinator.com/item?id=48206768)
 
-**Background**: Social media platforms like Meta are often caught between advocating for free speech and adhering to local regulations. In countries like Saudi Arabia and the UAE, strict cybercrime laws and anti-terrorism legislations can be used to restrict dissent, forcing platforms to either comply or risk being blocked entirely.
+**Background**: Social media platforms like Meta often comply with local laws to maintain access to markets, even when those laws conflict with human rights principles. Saudi Arabia and the UAE have strict regulations on online speech, penalizing criticism of the government or ruling families.
 
-**Discussion**: Commenters expressed mixed reactions, with some arguing that Meta had no choice but to comply or face being banned in those countries, while others criticized the company for prioritizing profits over principles. A few users expressed personal boycotts of Meta services, and one compared the platform to 'vampires we invited in.'
+**Discussion**: Commenters expressed skepticism, with some arguing Meta has no choice but to comply or face worse alternatives, while others condemned the company for prioritizing growth over principles. One user noted that social media was once promised to spread democracy, but this action shows otherwise.
 
-**Tags**: `#platform censorship`, `#free speech`, `#Meta`, `#human rights`, `#social media`
+**Tags**: `#censorship`, `#human rights`, `#Meta`, `#geopolitics`, `#social media`
 
 ---
 
 <a id="item-5"></a>
-## [Blog post explores pervasive undefined behavior in C](https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html) ⭐️ 8.0/10
+## [Blog Post Lists Surprising C Undefined Behaviors](https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html) ⭐️ 8.0/10
 
-A blog post titled 'Everything in C is undefined behavior' has been published, highlighting surprising and lesser-known instances of undefined behavior in the C programming language. The post has garnered significant community engagement with 396 points and 536 comments. Understanding undefined behavior is critical for C programmers and systems engineers, as it can lead to unpredictable program behavior and security vulnerabilities. This discussion underscores the importance of writing safe and portable C code. Community comments note that the article only scratches the surface; for instance, reading a volatile variable twice in a printf argument list is undefined behavior due to unsequenced side effects. Additionally, creating an unaligned pointer via casting is itself undefined behavior, not just the access.
+A blog post titled 'Everything in C is undefined behavior' went viral on Hacker News, listing various surprising undefined behaviors in the C programming language, sparking extensive discussion among systems programmers. This discussion highlights the deep pitfalls of C programming, especially for performance-critical and safety-critical systems, and underscores the ongoing tension between compiler optimizations and programmer intent. The blog post's examples include volatile access causing undefined behavior due to unsequenced side effects, and unaligned pointer casting being UB even before dereferencing. Commenters note that many examples are conditional on input or circumstances, similar to stack overflow in any language.
 
 hackernews · lycopodiopsida · May 20, 06:07 · [Discussion](https://news.ycombinator.com/item?id=48203698)
 
-**Background**: Undefined behavior (UB) in C refers to code constructs that the C standard does not define, allowing compilers to assume they never occur and optimize aggressively. Common sources include signed integer overflow, strict aliasing violations, and accessing memory through improperly aligned pointers. The concept of sequence points defines when side effects must be completed, and violations can lead to UB.
+**Background**: Undefined behavior (UB) in C means the language standard imposes no requirements on program behavior; the compiler may do anything, including producing unexpected results or crashing. This allows aggressive optimizations but can introduce subtle bugs. Many C programmers rely on common compiler behaviors, which may differ from the standard.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Pointer_aliasing">Aliasing (computing) - Wikipedia</a></li>
-<li><a href="https://stackoverflow.com/questions/4176328/what-are-sequence-points-and-how-do-they-relate-to-undefined-behavior">What are sequence points, and how do they relate to undefined ... Usage example</a></li>
+**Discussion**: Commenters expressed mixed opinions: some criticized the article for sensationalism and missing deeper UB examples, while others appreciated it as a conversation starter. One user humorously outlined the five stages of learning about UB (denial, anger, bargaining, depression, acceptance). The discussion also delved into technical nuances of volatile and unaligned access.
 
-</ul>
-</details>
-
-**Discussion**: Community sentiment is mixed: some argue the article sensationalizes UB and fails to capture the real intricacies, while others appreciate the awareness it raises. One comment humorously outlines the 'five stages of learning about UB', and another warns that overstating UB harms novices' understanding of actual C pitfalls.
-
-**Tags**: `#C`, `#undefined behavior`, `#programming languages`, `#compilers`, `#safety`
+**Tags**: `#C`, `#undefined behavior`, `#programming languages`, `#compilers`, `#systems programming`
 
 ---
 
 <a id="item-6"></a>
-## [Google announces Gemini 3.5 Flash with significant price hikes](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/) ⭐️ 8.0/10
+## [EU launches Wero, sovereign payment alternative to Visa/Mastercard](https://www.lesnumeriques.com/banque-en-ligne/adieu-visa-et-mastercard-130-millions-d-europeens-basculent-vers-un-paiement-100-souverain-des-2026-n250918.html) ⭐️ 8.0/10
 
-Google has announced Gemini 3.5 Flash, the latest iteration of its fast and cost-efficient Flash model series. The new model comes with a substantial price increase, with input token costs rising from $0.50 to $1.50 per million tokens and output tokens from $3.00 to $9.00 per million tokens compared to the previous Gemini 3.0 Flash Preview. This pricing change marks a notable shift in Google's strategy, as Gemini 3.5 Flash now costs nearly as much as the larger Gemini 2.5 Pro model, potentially altering its value proposition for developers. The community is actively debating whether the performance gains justify the cost, which could influence adoption in agentic and coding workflows. The model's knowledge cutoff is early 2025, so enabling web search is recommended for current events. Community members have inferred technical details, such as parameter counts, from the hardware constraints of serving on TPU 8i, though Google has not officially disclosed specifications.
+The European Payments Initiative launched Wero on July 2, 2024, a mobile payment system aiming to replace national solutions like iDEAL, Bizum, and Giropay, targeting 130 million users by 2026. Wero offers a sovereign European alternative to US-dominated card networks Visa and Mastercard, enhancing digital sovereignty and reducing dependency on non-EU payment infrastructure. Wero enables account-to-account payments in under 10 seconds across borders, and consolidates fragmented national systems; however, it initially focuses on online payments and may not affect in-store or contactless payments immediately.
 
-hackernews · spectraldrift · May 19, 17:43 · [Discussion](https://news.ycombinator.com/item?id=48196570)
+hackernews · healsdata · May 20, 13:02 · [Discussion](https://news.ycombinator.com/item?id=48207004)
 
-**Background**: Google's Flash models are designed to offer frontier-level intelligence at lower latency and cost, optimized for real-time tasks like coding and agentic loops. The pricing of large language models (LLMs) is typically based on token usage, with output tokens costing 3-10x more than input tokens due to the computational demand of generation. This release continues the trend of rapid model iteration, but the price increase contrasts with the usual expectation of decreasing costs per token over time.
+**Background**: Currently, each EU country often has its own mobile payment system, such as iDEAL in the Netherlands or Bizum in Spain, which are not interoperable across borders. Visa and Mastercard dominate transaction processing, raising concerns about data sovereignty and fees. Wero, backed by the European Payments Initiative and 16 financial institutions, aims to create a unified European payment method.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3 . 5 : frontier intelligence with action</a></li>
-<li><a href="https://deepmind.google/models/gemini/flash/">Gemini 3 . 5 Flash — Google DeepMind</a></li>
-<li><a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash">Gemini 3 . 5 Flash | Gemini API | Google AI for Developers</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Wero_(payment)">Wero ( payment ) - Wikipedia</a></li>
+<li><a href="https://wero-wallet.eu/">Wero - European payment solution</a></li>
+<li><a href="https://www.checkout.com/blog/wero-payments">What is Wero and how does it work?</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community comments reflect a mix of surprise and analysis. Several users pointed out the 3x price increase, with one noting that Gemini 3.5 Flash now costs similar to Gemini 2.5 Pro. Others discussed model performance, with comparisons showing that Gemini 3.5 Flash uses significantly fewer tokens than the older 3.1 Pro for certain tasks. There was also discussion about the model's cutoff date and the lack of official technical disclosure, with some users attempting to infer parameter counts from hardware constraints.
+**Discussion**: Commenters generally support the idea of a European payment system, with some praising iDEAL as a gold standard. However, several note that the headline is misleading as it describes only online payments, not in-store, and that direct debit cards are still often Visa/Mastercard-powered. There is also humor about the name 'Wero' coming from 'we-ro' (sharing your euro).
 
-**Tags**: `#AI`, `#Gemini`, `#Google`, `#LLM pricing`, `#Machine Learning`
+**Tags**: `#fintech`, `#payments`, `#EU`, `#digital sovereignty`, `#online banking`
 
 ---
 
 <a id="item-7"></a>
-## [uv 0.11.15 Released with Critical Security Patches](https://github.com/astral-sh/uv/releases/tag/0.11.15) ⭐️ 7.0/10
+## [uv 0.11.15 released with security fixes and enhancements](https://github.com/astral-sh/uv/releases/tag/0.11.15) ⭐️ 7.0/10
 
-Astral's uv package manager version 0.11.15 was released on May 18, 2026, fixing a TAR parser differential vulnerability (GHSA-3cv2-h65g-fgmm) and an entry point escape issue (GHSA-4gg8-gxpx-9rph). It also includes enhancements like TOML v1.1 backward compatibility, Azure request signing support, and stricter wheel filename validation. This release is important because uv is a widely used Python package manager; the security fixes protect users from potential arbitrary code execution or file manipulation during package installation. The TOML v1.1 backward compatibility ensures smooth adoption of the latest TOML standard in Python packaging. The TAR parser differential vulnerability in the forked tokio-tar library could allow crafted archive headers to bypass checks. The entry point escape fix enforces that scripts cannot be placed outside designated directories, preventing code execution. Performance improvements include avoiding JSON manifest parsing when a local Python is available and optimizing async ZIP writing.
+Astral released uv 0.11.15 on 2026-05-18, fixing two security vulnerabilities: a TAR parser differential (GHSA-3cv2-h65g-fgmm) and a scripts directory escape (GHSA-4gg8-gxpx-9rph). It also introduces TOML v1.1 to v1.0 backwards compatibility for source distributions and support for Azure request signing. As a widely used Python package manager, uv's security fixes are critical for protecting users from potential attacks like symlink traversal or arbitrary file writes. The enhancements improve compatibility with modern Python packaging standards and cloud workflows. The TAR parser differential could allow an attacker to write files outside the intended directory via crafted tar entries, while the scripts directory escape prevented path traversal in script entry points. Additional changes include stricter validation of wheel filenames and rejection of empty package names.
 
 github · github-actions[bot] · May 18, 19:59
 
-**Background**: uv is a fast Python package manager and resolver written in Rust, developed by Astral. It aims to replace tools like pip and pip-tools. The TAR parser differential is a type of vulnerability where specially crafted TAR archives can cause the parser to behave differently than expected, potentially leading to security bypasses. The entry point escape occurs when scripts declared in package metadata are written to locations outside the intended 'scripts' directory, which could allow arbitrary code execution.
+**Background**: uv is a fast, Rust-based Python package manager that replaces pip and pip-tools. A TAR parser differential is a vulnerability where symlinks or path components in a tar archive can trick the extraction process to write files outside the target directory, leading to arbitrary file overwrite. Scripts directory escape refers to path traversal in the scripts directory, where entry points could break out of the intended sandbox.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/astral-sh/tokio-tar">GitHub - astral-sh/tokio-tar: A tar archive reading/writing ...</a></li>
-<li><a href="https://discuss.python.org/t/adopting-toml-1-1/105624">Adopting TOML 1.1? - Coordination - Discussions on Python.org</a></li>
+<li><a href="https://www.man7.org/linux/man-pages/man1/tar.1.html">tar (1) - Linux manual page - man7.org</a></li>
+<li><a href="https://docs.astral.sh/uv/guides/scripts/">Running scripts | uv</a></li>
+<li><a href="https://en.wikipedia.org/wiki/TOML">TOML - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#uv`, `#python`, `#package-manager`, `#security`, `#release`
+**Tags**: `#package-management`, `#security`, `#python`, `#release`
 
 ---
 
 <a id="item-8"></a>
-## [Archived FiveThirtyEight Index Launched After Disney Removal](https://fivethirtyeightindex.com/) ⭐️ 7.0/10
+## [Google fights manipulation of AI search results](https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results) ⭐️ 7.0/10
 
-A website called fivethirtyeightindex.com has been launched to index thousands of FiveThirtyEight articles archived via the Internet Archive, after Disney and ABC removed the original content from the web. This incident underscores the fragility of digital journalism and the importance of web archiving, as media consolidation can lead to the erasure of valuable journalistic work. It also empowers readers and researchers to access content that would otherwise be lost. The index aggregates links from the Wayback Machine, but many interactive visualizations, such as the gun deaths visualization and the P-hacking interactive, are broken in the archived versions. The site was created by Ben Welsh, a Reuters reporter and former data journalist.
+Google is quietly combating attempts to manipulate its AI-generated search results, particularly through adversarial techniques that trick AI Overviews. This matters because manipulated AI search results could spread misinformation or influence financial and health decisions, eroding trust in Google's core product. It also signals a new stage in the ongoing battle between search engines and SEO spammers. The manipulation involves feeding false content to Google's AI, akin to black-hat SEO for AI-generated summaries. While Google's SpamBrain anti-spam system could be deployed, critics remain skeptical given the company's historical struggles with web spam.
 
-hackernews · ChocMontePy · May 20, 01:34 · [Discussion](https://news.ycombinator.com/item?id=48201973)
+hackernews · tigerlily · May 20, 10:57 · [Discussion](https://news.ycombinator.com/item?id=48205782)
 
-**Background**: FiveThirtyEight, a data-driven journalism site founded by Nate Silver, was acquired by Disney in 2013. In 2023, Disney/ABC removed thousands of articles from the site, leading to significant loss of content. The Internet Archive is a non-profit library that preserves web pages through its Wayback Machine, which has archived more than 1 trillion web captures. Web archiving is essential for preserving digital culture and ensuring long-term access to online information.
+**Background**: Google has long battled spam and SEO manipulation in its search results, developing systems like SpamBrain—an AI-based spam detection engine. With the introduction of AI Overviews that generate summaries from web content, new attack vectors have emerged where adversaries craft content to alter those summaries. This mirrors past tactics but targets the AI layer directly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Internet_Archive">Internet Archive</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Web_archiving">Web archiving</a></li>
+<li><a href="https://spambrain.com/">Google SpamBrain</a></li>
+<li><a href="https://blog.hubspot.com/marketing/black-hat-seo">What is black hat SEO? Understanding the risks</a></li>
+<li><a href="https://www.searchenginejournal.com/seo-black-hat-techniques/180601/">13 Black Hat Techniques That Can Harm An SEO Campaign</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters highlighted the irony that Nate Silver may benefit from the removal, as readers flock to his personal site. Others noted that many interactive visualizations are broken in the archives, which is a sad loss. Some also appreciated the work of Ben Welsh in creating the index.
+**Discussion**: Community commenters express deep skepticism, noting Google's inability to fully eliminate spam since 2006. Some view this as a minor issue based on the trivial example given, while others see it as the inevitable next phase of SEO, with an endless cat-and-mouse cycle. A few question why Google isn't leveraging its vast web reliability knowledge.
 
-**Tags**: `#digital preservation`, `#media consolidation`, `#web archiving`, `#FiveThirtyEight`, `#journalism`
+**Tags**: `#AI`, `#Google`, `#search`, `#spam`, `#SEO`
 
 ---
 
 <a id="item-9"></a>
-## [Simon Willison's Lightning Talk: Six Months of LLM Progress](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything) ⭐️ 7.0/10
+## [Curated Index of Archived FiveThirtyEight Articles](https://fivethirtyeightindex.com/) ⭐️ 7.0/10
 
-Simon Willison presented a five-minute lightning talk at PyCon US 2026 summarizing key LLM developments from November 2025 to May 2026, including five changes in the 'best' model among Anthropic, OpenAI, and Google. This curated overview provides a quick yet comprehensive snapshot of rapid advancements in LLMs, especially in coding capabilities, helping developers stay current with the fast-moving AI landscape. Willison used his 'Generate an SVG of a pelican riding a bicycle' test to demonstrate model capabilities, noting that the test is fair because it was not a training task for any lab.
+A curated index of archived FiveThirtyEight articles on the Internet Archive has been created at fivethirtyeightindex.com in response to ABC News/Disney removing thousands of articles from the site. This archive preserves the journalistic work of FiveThirtyEight, a major data journalism site, and ensures public access to historical articles that were deleted by the new owners. The index was created by Ben Welsh, a reporter and programmer at Reuters, and while many archived pages work, some interactive visualizations like the gun deaths visualization are broken due to missing JavaScript or APIs.
 
-rss · Simon Willison · May 19, 01:09
+hackernews · ChocMontePy · May 20, 01:34 · [Discussion](https://news.ycombinator.com/item?id=48201973)
 
-**Background**: The talk highlighted the November 2025 inflection point, where coding models such as GPT-5.1, Gemini 3, and Claude Opus rapidly succeeded each other as the top model. Willison's annotated presentation tool, built with LLM assistance, allows him to create interactive slide summaries with commentary.
+**Background**: FiveThirtyEight was a data journalism website founded by Nate Silver, known for its statistical analysis of politics and sports. In 2023, after being acquired by Disney, ABC News removed most of the site's articles, sparking concerns about digital preservation of journalism. The Internet Archive's Wayback Machine captures snapshots of web pages, and this index helps navigate the archived content.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://simonwillison.net/tags/annotated-talks/">Simon Willison on annotated-talks</a></li>
-<li><a href="https://tools.simonwillison.net/annotated-presentations">Annotated Presentation Creator</a></li>
+**Discussion**: Community comments highlight the significance of archiving, with one user noting that thousands of articles vanished; others discuss Nate Silver's personal site as an alternative. There is disappointment that many interactive visualizations are broken in the archived version, such as the gun deaths interactive.
 
-</ul>
-</details>
-
-**Tags**: `#LLM`, `#AI`, `#Python`, `#PyCon`, `#lightning talk`
+**Tags**: `#digital preservation`, `#journalism`, `#fivethirtyeight`, `#internet archive`, `#data journalism`
 
 ---
 
 <a id="item-10"></a>
-## [Japan's 1950s forestry project blamed for mass allergies](https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan) ⭐️ 6.0/10
+## [Japan's mass allergies traced to 1950s reforestation project](https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan) ⭐️ 6.0/10
 
-A BBC investigation reveals that Japan's severe hay fever epidemic, affecting over 42% of the population, stems from post-war monoculture forestry projects in the 1950s and 1960s that planted vast areas with sugi (cedar) and hinoki (cypress) trees. This historical policy blunder now causes widespread seasonal allergies, disrupting daily life and the economy, and serves as a cautionary tale about long-term unintended consequences of large-scale environmental interventions. The trees were intended to be gradually harvested, but cheaper imports from Malaysia and other countries made domestic logging uneconomical, leaving the monoculture plantations to mature and release massive pollen clouds annually.
+A BBC Future article reveals that Japan's severe hay fever epidemic, affecting tens of millions, is linked to a post-war reforestation project that planted vast monocultures of sugi (cedar) and hinoki (cypress) trees in the 1950s and 1960s. This highlights how well-intentioned environmental policies can have unintended long-term public health consequences, affecting millions annually and straining healthcare systems. The forests were intended to be harvested gradually but cheaper imports led to them being left untouched, causing massive pollen release each spring. The article notes that the government is now trying to convert these monocultures back to mixed forests.
 
 hackernews · ranit · May 20, 01:43 · [Discussion](https://news.ycombinator.com/item?id=48202047)
 
-**Background**: After World War II, Japan embarked on a massive reforestation program to meet timber demands for reconstruction. The government encouraged planting of fast-growing sugi and hinoki trees, often in monoculture stands. These trees now cover about 12% of Japan's land area and produce copious lightweight pollen that drifts into urban areas, triggering hay fever.
+**Background**: After World War II, Japan faced deforestation and soil erosion, prompting a large-scale reforestation program using fast-growing sugi and hinoki trees for timber. The trees take 30-50 years to mature and start producing large amounts of pollen. By the time they were ready for harvest, Japan's economy had shifted to cheaper imported wood, so the trees remained standing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan">Japan is gripped by mass allergies. A 1950s project is to blame</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Hay_fever_in_Japan">Hay fever in Japan - Wikipedia</a></li>
-<li><a href="https://bnn-news.com/japan-struggles-with-allergies-pollen-is-to-blame-280419">Japan struggles with allergies; pollen is to blame - Baltic News Network</a></li>
+<li><a href="https://www.bbc.com/future/article/20260515-the-1950s-blunder-which-causes-mass-hay-fever-in-japan">Japan is gripped by mass allergies. A 1950s project is to blame</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments highlight the irony that the trees were meant to be harvested but cheap imports made it unprofitable, and compare Japan's situation to German monoculture forests which also produce pollen clouds but seemingly cause fewer allergies. Some discuss alternative treatments like acupuncture for allergy relief.
+**Discussion**: Comments discuss parallels with German monoculture forests and question why treatments like acupuncture weren't mentioned. Some users point out the original plan was for gradual harvesting, but economic factors prevented it.
 
-**Tags**: `#environment`, `#allergies`, `#Japan`, `#history`, `#forestry`
+**Tags**: `#environment`, `#health`, `#Japan`, `#forestry`, `#history`
 
 ---
 
 <a id="item-11"></a>
-## [Google I/O 2026: Gemini Spark and Antigravity Steal the Show](https://simonwillison.net/2026/May/20/google-io/#atom-everything) ⭐️ 6.0/10
+## [Simon Willison Analyzes Gemini Spark and Antigravity at Google I/O](https://simonwillison.net/2026/May/20/google-io/#atom-everything) ⭐️ 6.0/10
 
-Google announced Gemini Spark, a personal AI agent that connects natively with Google apps, and introduced Antigravity, a closed-source agent harness that replaces the open-source Gemini CLI. Gemini Spark runs on Gemini 3.5 Flash and Antigravity, with enterprise-grade security through isolated ephemeral VMs. Gemini Spark represents Google's push into autonomous AI agents that can act on behalf of users across Workspace, potentially transforming productivity. However, the shift from open-source to closed-source tooling and security concerns around prompt injection could impact developer trust and enterprise adoption. Gemini Spark runs on Gemini 3.5 Flash and Antigravity, with Antigravity comprising a desktop app, CLI (Go), Python SDK, and VS Code fork. Google announced that the open-source Gemini CLI (TypeScript, Apache 2.0) will stop working with subscription plans on June 18, 2026, replaced by the closed-source Antigravity CLI.
+Simon Willison discusses Google I/O announcements, highlighting Gemini Spark as a personal AI agent that runs on Gemini 3.5 Flash and Antigravity, but he notes his policy prevents in-depth analysis until the product is generally available. Gemini Spark represents a significant step toward personal AI agents integrated with Google's ecosystem, but security concerns around prompt injection and data privacy remain critical as it handles sensitive user data. Gemini Spark connects with Gmail, Calendar, Drive, and other Google apps, running in isolated ephemeral VMs with enterprise-grade security. Meanwhile, Google is replacing the open source Gemini CLI with the closed source Antigravity CLI by June 18th.
 
 rss · Simon Willison · May 20, 15:32
 
-**Background**: Gemini is Google's family of multimodal large language models, succeeding LaMDA and PaLM. Gemini Spark is a new agentic product that automates tasks in Gmail, Calendar, Drive, etc., leveraging Google's cloud infrastructure. Antigravity is a harness that enables agent execution, and its CLI tool is now closed-source, contrasting with the previously open Gemini CLI.
+**Background**: Simon Willison is a well-known figure in the developer community who often writes about AI and LLMs. He has a policy of only writing about products he can try himself, which limits his analysis of preview-only announcements like Gemini Spark. Gemini Spark is described as a 24/7 personal AI agent, and Antigravity is a set of tools including a CLI and SDK.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://gemini.google/overview/agent/spark/">Gemini Spark – Your 24/7 personal AI agent for productivity</a></li>
 <li><a href="https://blog.google/innovation-and-ai/products/gemini-app/next-evolution-gemini-app/">The Gemini app becomes more agentic, delivering proactive, 24/7 help</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_Spark">Gemini Spark</a></li>
+<li><a href="https://gemini.google/overview/agent/spark/">Gemini Spark – Your 24/7 personal AI agent for productivity</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Google I/O`, `#Gemini Spark`, `#AI agents`, `#personal assistant`, `#Google`
+**Tags**: `#Google I/O`, `#AI Agent`, `#Gemini Spark`, `#Google`
 
 ---
 
 <a id="item-12"></a>
-## [llm-gemini 0.32 Adds Gemini 3.5 Flash Support](https://simonwillison.net/2026/May/19/llm-gemini-2/#atom-everything) ⭐️ 6.0/10
+## [Last 6 months of LLMs in a 5-minute talk](https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything) ⭐️ 6.0/10
 
-Version 0.32 of the llm-gemini plugin adds support for Google's new Gemini 3.5 Flash model, enabling users to access it from the LLM command-line tool. This update allows LLM users to leverage the improved performance and cost-efficiency of Gemini 3.5 Flash, which is optimized for complex coding and agentic tasks. The only change in this release is the addition of the `gemini-3.5-flash` model; no other features or fixes are included.
+Simon Willison presented a five-minute lightning talk at PyCon US 2026 summarizing the last six months of developments in large language models, including annotated slides. The talk highlights the November 2025 inflection point and the rapid shift in which model was considered 'best' among Anthropic, OpenAI, and Google. This summary provides a concise, accessible update for developers and AI enthusiasts to quickly grasp the rapid pace of LLM evolution. It helps the community stay informed without requiring deep technical analysis. The talk notes that the 'best' model changed hands five times between November 2025 and May 2026, starting with Claude Sonnet 4.5 and passing through GPT-5.1, Gemini 3, GPT-5.1 Codex Max, and Claude Opus. Willison uses a custom 'pelican riding a bicycle' SVG test to illustrate model differences.
 
-rss · Simon Willison · May 19, 23:46
+rss · Simon Willison · May 19, 01:09
 
-**Background**: LLM is an open-source command-line tool and Python library by Simon Willison that provides a unified interface to interact with various large language models. Gemini 3.5 Flash is Google's latest flash model offering sustained frontier-level intelligence with higher speed and lower cost, particularly effective for real-world tasks like rapid agentic loops and complex coding.
+**Background**: Large language models have been evolving rapidly, with multiple major releases in late 2025. The November 2025 inflection point marked a period of intense competition among top AI labs. Willison's annotated presentation tool allows him to create slides with accompanying notes for easy sharing.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/simonw/llm">GitHub - simonw/llm: Access large language models from the ...</a></li>
-<li><a href="https://deepmind.google/models/gemini/flash/">Gemini 3 . 5 Flash — Google DeepMind</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#llm`, `#gemini`, `#release`, `#plugin`
+**Tags**: `#LLMs`, `#AI`, `#PyCon`, `#Lightning Talk`, `#Summary`
 
 ---
